@@ -223,7 +223,7 @@ sa_ctrl <- safsControl(functions = rfSA,
                         repeats = 3,
                         improve = 5) # n iterations without improvement before a reset
 
-# Genetic Algorithm feature selection
+
 set.seed(100)
 sa_obj <- safs(x=train_classification[, 1:8], 
                y=train_classification[, 9],
